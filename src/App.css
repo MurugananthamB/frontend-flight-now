@@ -1,0 +1,37 @@
+/* Background image and page positioning */
+body {
+    background: url('./status.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* Positioning for .page */
+.page {
+    position: absolute;
+}
+
+/* Fading transition effects */
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 1;
+    transition: opacity 150ms linear;
+}
