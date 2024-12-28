@@ -14,8 +14,8 @@ export default function Homepage() {
       {/* Header */}
       <div className="absolute top-1 left-1/2 transform -translate-x-1/2 z-10 text-center">
         <span className="text-white text-center">
-          {/* <span className="text-black text-center text-5xl font-light tracking-wide font-cursive animate-text align-center"></span> */}
-          MADURAI AIRLINES
+          <span className="text-black text-center text-5xl font-light tracking-wide font-cursive animate-text align-center"></span>
+          <b>MADURAI AIRLINES</b>
         </span>
       </div>
 
@@ -45,8 +45,8 @@ export default function Homepage() {
               </linearGradient>
             </defs>
             <rect
-              x="5"
-              y="5"
+              x="10"
+              y="-5"
               rx="25"
               fill="none"
               stroke="url(#grad1)"
