@@ -11,6 +11,7 @@ export default class App extends React.Component {
 
   render() {
     return (
+    
       <div className="row">
         <div className="column3">
           <div className="seatInfo">
@@ -19,15 +20,15 @@ export default class App extends React.Component {
               <div className="cen">
                 <form onSubmit={this.moveToCusPage}>
                   <br />
-                  <label className="t">Name: &nbsp;&nbsp;&nbsp;</label>
+                  <label className="t">Name : &nbsp;&nbsp;&nbsp;</label>
                   <input type="text" name="name" id="d" required />
-                  <br />
-                  <label className="t">Email-Id: &nbsp;&nbsp;&nbsp;</label>
+                  <br /><br></br>
+                  <label className="t">Email-Id : &nbsp;&nbsp;&nbsp;</label>
                   <input type="email" name="usr_email" id="d" required />
                   <br />
                   <br />
                   <a href="#" onClick={(e) => this.moveToCusPage(e)}>
-                    <label className="bo">FEEDBACK</label>
+                    <label className="bo">FEEDBACK : </label>
                   </a>
                   <textarea name="message"></textarea>
                   <br />
@@ -64,12 +65,12 @@ export default class App extends React.Component {
               </div>
               <br />
               <br />
-              <p className="te">EMAIL: PASSENGER_airlines@gmail.com</p>
-              <p className="te">CONTACT NUMBER: 9789909345</p>
-              <p className="te">ADDRESS: 91-Z/19, Chennai, 603203</p>
+              <p className="te">EMAIL: maduraiairlines@gmail.com</p>
+              <p className="te">CONTACT NUMBER: 9047910212</p>
+              <p className="te">ADDRESS: Madurai, 625007</p>
               <br />
               <p className="bo">If you need any information send mail</p>
-              <a href="mailto:Passengar13@gmail.com" className="bo">
+              <a href="mailto:maduraipassengar13@gmail.com" className="bo">
                 Report via mail
               </a>
             </center>

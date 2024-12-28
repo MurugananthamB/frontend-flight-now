@@ -52,8 +52,9 @@ export default function RouteSelection() {
       <div className="my-6">
         <ul className="flex flex-wrap space-x-4 text-sm font-medium text-center text-gray-700 dark:text-gray-400">
           <li>
-            <a href="#home" className="flex items-center justify-center h-screen" data-toggle="pill">
-              Ticket Booking
+            <a href="#home" className="nav-link" data-toggle="pill">
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ticket Booking
             </a>
           </li>
           <li>

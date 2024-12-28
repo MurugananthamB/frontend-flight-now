@@ -51,7 +51,7 @@ export default function RouteSelector() {
             onChange={handleFromCity}
             className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
-            <option>FROM</option>
+            <option>From</option>
             <option>Chennai</option>
             <option>Bangalore</option>
             <option>Coimbatore</option>
@@ -84,7 +84,7 @@ export default function RouteSelector() {
             onChange={handleToCity}
             className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
-            <option>TO</option>
+            <option>To</option>
             <option>Hyderabad</option>
             <option>Coimbatore</option>
             <option>Vishakapatnam</option>
